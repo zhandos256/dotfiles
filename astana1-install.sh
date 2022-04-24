@@ -1,11 +1,13 @@
 #!/bin/bash
 
-astana_host='212.154.167.54'
-astana_port=8080
-
+# astana 1 java file
 java_file='http://212.154.167.54:8080/kazawclient1/AWhqLO_OUT_19.jnlp'
 
-telnet $astana_host $astana_port
-GET /$java_file HTTP/1.0
+jre-8u151='https://filehippo.com/download_jre-32/8.0.1510.12.0/post_download/'
+
+echo "Downloading Jre-8u151"
+curl $jre-8u151 --output jre-8u151-windows-i586.exe
+echo "Downloading Java file from ASTANA 1"
+curl $java_file --output AWhqLO_OUT_19.jnlp
 
 ls
