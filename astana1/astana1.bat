@@ -4,7 +4,11 @@ echo Installing Jre-8u151.exe
 start jre-8u151-windows-i586.exe /s
 echo Downloading ASTANA 1 file
 COPY exception.sites C:\%userprofile%\AppData\LocalLow\Sun\Java\Deployment\security\
+echo deployment.security.mixcode=DISABLE >> C:\%userprofile%\AppData\LocalLow\Sun\Java\Deployment\deployment.properties
+echo deployment.security.level=MEDIUM >> C:\%userprofile%\AppData\LocalLow\Sun\Java\Deployment\deployment.properties
+echo deployment.security.validation.ocsp=true >> C:\%userprofile%\AppData\LocalLow\Sun\Java\Deployment\deployment.properties
+echo deployment.expiration.check.enabled=false >> C:\%userprofile%\AppData\LocalLow\Sun\Java\Deployment\deployment.properties
 curl http://212.154.167.54:8080/kazawclient1/AWhqLO_OUT_19.jnlp --output AWhqLO_OUT_19.jnlp 
 echo Installing ASTANA 1
-start hqLO_OUT_19.jnlp /s
+javaws -silent AWhqLO_OUT_19.jnlp /s
 echo DONE
