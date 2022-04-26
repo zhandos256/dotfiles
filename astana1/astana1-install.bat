@@ -6,5 +6,5 @@ COPY exception.sites C:\%userprofile%\AppData\LocalLow\Sun\Java\Deployment\secur
 echo Downloading AWhqLO_OUT_19.jnlp file
 curl http://212.154.167.54:8080/kazawclient1/AWhqLO_OUT_19.jnlp --output AWhqLO_OUT_19.jnlp 
 echo Installing AWhqLO_OUT_19.jnlp
-javaws -silent AWhqLO_OUT_19.jnlp
+javaws AWhqLO_OUT_19.jnlp
 echo DONE
