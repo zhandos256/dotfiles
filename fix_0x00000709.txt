@@ -1,0 +1,1 @@
+wusa.exe /uninstall /kb:5006674, /kb:5006667, /kb:5006714
