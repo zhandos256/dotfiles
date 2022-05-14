@@ -7,5 +7,3 @@
 
 Conclusion
 To fix error code 0x0000011b when printing on Windows 11, uninstall all the recently installed updates, especially KBKB5005565 and KB5005568. Then, manually add the printer using its IP address. If the error persists, disable Print Spooler RPC encryption.
-
-
