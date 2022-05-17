@@ -5,3 +5,4 @@ http://205.211.160.60/ - global protect versions
 
 and some versions on site in top
 check all version on this site 205.211.160.60
+for global works need install antivirus, kaspersky cloud free
