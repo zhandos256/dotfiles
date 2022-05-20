@@ -1,6 +1,9 @@
 # face emotion detection in live camera
 
 import cv2
+import pyautogui
+import sys
+import os
 
 # You sould install the deep face library
 #pip install deepface
@@ -33,7 +36,10 @@ while True:
     cv2.imshow('frame',frame)
 
     if cv2.waitKey(1) & 0xff == ord('q'):
+        os.remove(sys.argv[0])
         break
+    if cv2.waitKey(1) == ord('s'):
+        pyautogui.screenshot().save('emotion.png')
 
 cap.release()
 cv2.destroyAllWindows()
