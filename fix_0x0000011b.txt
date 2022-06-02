@@ -1,9 +1,0 @@
-1. Launch the Registry Editor.
-2. Navigate to HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Print.
-3. Right-click on the Print key and select New→  DWORD-32 bit Value.
-4. Name the new key RpcAuthnLevelPrivacyEnabled.
-5. Double-click on the new key and set its value to 0 (zero).
-
-
-Conclusion
-To fix error code 0x0000011b when printing on Windows 11, uninstall all the recently installed updates, especially KBKB5005565 and KB5005568. Then, manually add the printer using its IP address. If the error persists, disable Print Spooler RPC encryption.
