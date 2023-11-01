@@ -72,9 +72,7 @@ return require("packer").startup(function(use)
 	})
 	-- Monokai colorscheme
 	use("tanvirtin/monokai.nvim")
-	-- Neosolarized colorscheme
-	use("Tsuzat/NeoSolarized.nvim")
-	-- text-case string manipulation
+	-- Manipulate strings plugins
 	use({
 		"johmsalas/text-case.nvim",
 	})
