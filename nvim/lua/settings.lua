@@ -28,7 +28,7 @@ opt.backup = false
 opt.undofile = true
 opt.background = "dark"
 opt.termguicolors = true
-cmd[[ colorscheme onedark ]]
+cmd[[ colorscheme catppuccin-mocha ]]
 -- don't auto commenting new lines
 cmd [[au BufEnter * set fo-=c fo-=r fo-=o]]
 cmd([[
