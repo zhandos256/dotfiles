@@ -10,5 +10,6 @@ sudo mkdir -p $HOME/.config/nvim
 
 sudo cp -R ./nvim $HOME/.config/
 sudo cp ./.tmux.conf $HOME/
+sudo cp ./.vimrc $HOME/
 
 echo Done
