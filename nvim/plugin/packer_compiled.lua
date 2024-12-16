@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.1732813678/share/lua/5.1/?.lua;/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.1732813678/share/lua/5.1/?/init.lua;/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.1732813678/lib/luarocks/rocks-5.1/?.lua;/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.1732813678/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/rzhandos/.cache/nvim/packer_hererocks/2.1.1732813678/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -115,11 +115,6 @@ _G.packer_plugins = {
     path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["code_runner.nvim"] = {
-    loaded = true,
-    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/code_runner.nvim",
-    url = "https://github.com/CRAG666/code_runner.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -130,6 +125,11 @@ _G.packer_plugins = {
     path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -139,6 +139,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/lexima.vim",
     url = "https://github.com/cohama/lexima.vim"
+  },
+  ["lspkind.nvim"] = {
+    loaded = true,
+    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
+    url = "https://github.com/onsails/lspkind.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -186,15 +191,9 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
-  },
-  ["onedark.vim"] = {
     loaded = true,
-    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/onedark.vim",
-    url = "https://github.com/joshdick/onedark.vim"
+    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -206,20 +205,15 @@ _G.packer_plugins = {
     path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["popup.nvim"] = {
+  ["satellite.nvim"] = {
     loaded = true,
-    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/popup.nvim",
-    url = "https://github.com/nvim-lua/popup.nvim"
+    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/satellite.nvim",
+    url = "https://github.com/lewis6991/satellite.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["vim-startify"] = {
-    loaded = true,
-    path = "/Users/rzhandos/.local/share/nvim/site/pack/packer/start/vim-startify",
-    url = "https://github.com/mhinz/vim-startify"
   }
 }
 

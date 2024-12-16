@@ -1,4 +1,4 @@
-vim.opt.termguicolors = true
+-- vim.opt.termguicolors = true
 require("bufferline").setup({
 	options = {
 		mode = "tabs",
@@ -10,10 +10,25 @@ require("bufferline").setup({
 		color_icons = true,
 	},
 	highlights = {
+    separator = {
+      fg = "#073642",
+      bg = "#002b36"
+    },
+    separator_selected = {
+      fg = "#073642",
+
+    },
+    background = {
+      fg = "#657b83",
+      bg = "#002b36"
+    },
 		buffer_selected = {
-			fg = "#ffffff",
+			fg = "#fdf6e3",
 			gui = "bold",
 		},
+    fill = {
+      bg = "#073642"
+    }
 	},
 })
 
