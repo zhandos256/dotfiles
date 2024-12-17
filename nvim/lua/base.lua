@@ -26,6 +26,7 @@ opt.encoding = "utf-8"
 opt.fileencoding = "utf-8"
 opt.cursorline = true
 
+cmd[[ colorscheme retrobox ]]
 -- don't auto commenting new lines
 cmd([[au BufEnter * set fo-=c fo-=r fo-=o]])
 cmd([[
@@ -61,6 +62,6 @@ augroup end
 vim.api.nvim_create_autocmd("ColorScheme", {
 	callback = function()
 		vim.cmd([[highlight CursorLine guibg=NONE cterm=underline]])
-		vim.cmd([[highlight CursorLineNr guibg=NONE cterm=underline]])
+		vim.cmd([[highlight CursorLineNr guifg=#fffa78 guibg=NONE cterm=underline]])
 	end,
 })

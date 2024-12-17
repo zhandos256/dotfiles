@@ -78,10 +78,6 @@ return require("packer").startup(function(use)
 	-- Bufferline
 	use({ "akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons" })
 
-	-- Satelite
-	use("lewis6991/satellite.nvim")
-
-	-- Neosolarized 2
-	use("svrana/neosolarized.nvim")
-	use("tjdevries/colorbuddy.nvim")
+	-- Transparent
+	use("xiyaowong/transparent.nvim")
 end)
