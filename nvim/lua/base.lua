@@ -1,5 +1,4 @@
 local opt = vim.opt
-123local cmd = vim.cmd
 local exec = vim.api.nvim_exec
 
 opt.number = true
