@@ -1,5 +1,5 @@
 local opt = vim.opt
-local cmd = vim.cmd
+123local cmd = vim.cmd
 local exec = vim.api.nvim_exec
 
 opt.number = true
@@ -26,7 +26,7 @@ opt.encoding = "utf-8"
 opt.fileencoding = "utf-8"
 opt.cursorline = true
 
-cmd[[ colorscheme retrobox ]]
+-- cmd[[ colorscheme retrobox ]]
 -- don't auto commenting new lines
 cmd([[au BufEnter * set fo-=c fo-=r fo-=o]])
 cmd([[

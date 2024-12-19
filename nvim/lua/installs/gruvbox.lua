@@ -22,5 +22,5 @@ require("gruvbox").setup({
 	dim_inactive = false,
 	transparent_mode = true,
 })
-vim.o.background = "dark" -- or "light" for light mode
+vim.o.background = "dark"
 vim.cmd("colorscheme gruvbox")

@@ -80,4 +80,7 @@ return require("packer").startup(function(use)
 
 	-- Transparent
 	use("xiyaowong/transparent.nvim")
+
+  -- Gruvbox
+  use ("ellisonleao/gruvbox.nvim")
 end)
