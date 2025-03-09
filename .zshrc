@@ -77,6 +77,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+source $ZSH/.zsh_aliases.sh
 
 # User configuration
 
@@ -106,39 +107,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# System
-alias cls="clear"
-alias o="open "
-alias quit="exit"
-alias c="pbcopy"
-alias cat="bat --theme="gruvbox-dark""
-alias hh="tldr"
-
-# python
-alias ac="source ~/files/acti.sh"
-alias ca="deactivate"
-alias venv="/usr/bin/python3 -m venv .env && . ./.env/bin/activate && pip install -U pip"
-alias python3="/usr/bin/python3"
-alias note="jupyter notebook"
-
-# zsh
-alias zconf="vim ~/.zshrc"
-alias zupd="source ~/.zshrc"
-
-# TMUX
-alias tt="tmux"
-alias tconf="vim ~/.tmux.conf"
-alias tupd="tmux source-file ~/.tmux.conf"
-alias tks="tmux kill-server"
-alias ta="tmux attach -t"
-alias tls="tmux ls"
-
-# VIM
-alias vim="nvim"
-alias vconf="vim ~/.config/nvim/"
-
-# GIT
-alias gw="git switch"
-alias gb="git branch"
-alias gs="git status"
