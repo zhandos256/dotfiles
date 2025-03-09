@@ -1,6 +1,9 @@
 local opt = vim.opt
+local cmd = vim.cmd
 local exec = vim.api.nvim_exec
 
+opt.linebreak = true
+opt.breakindent = true
 opt.number = true
 opt.ignorecase = true
 opt.tabstop = 2
@@ -24,6 +27,9 @@ opt.title = true
 opt.encoding = "utf-8"
 opt.fileencoding = "utf-8"
 opt.cursorline = true
+opt.scrolloff=3
+opt.sidescrolloff=3
+
 
 -- cmd[[ colorscheme retrobox ]]
 -- don't auto commenting new lines
@@ -61,6 +67,6 @@ augroup end
 vim.api.nvim_create_autocmd("ColorScheme", {
 	callback = function()
 		vim.cmd([[highlight CursorLine guibg=NONE cterm=underline]])
-		vim.cmd([[highlight CursorLineNr guifg=#fffa78 guibg=NONE cterm=underline]])
+		-- vim.cmd([[highlight CursorLineNr guifg=#910000 guibg=NONE cterm=underline]])
 	end,
 })

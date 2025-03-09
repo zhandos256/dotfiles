@@ -132,8 +132,8 @@ require("lspconfig")["pyright"].setup({
 	},
 })
 require("lspconfig")["ts_ls"].setup({
-  capabilities = capabilities,
+	capabilities = capabilities,
 })
 require("lspconfig")["eslint"].setup({
-  capabilities = capabilities,
+	capabilities = capabilities,
 })

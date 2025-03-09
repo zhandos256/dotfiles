@@ -75,12 +75,17 @@ return require("packer").startup(function(use)
 	-- LSPkind
 	use("onsails/lspkind.nvim")
 
-	-- Bufferline
+	-- Gruvbox
+	use("ellisonleao/gruvbox.nvim")
+
+	use({
+		"ray-x/lsp_signature.nvim",
+	})
+
+	-- using packer.nvim
 	use({ "akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons" })
 
-	-- Transparent
-	use("xiyaowong/transparent.nvim")
+	use("HiPhish/rainbow-delimiters.nvim")
 
-  -- Gruvbox
-  use ("ellisonleao/gruvbox.nvim")
+  use { "catppuccin/nvim", as = "catppuccin" }
 end)
