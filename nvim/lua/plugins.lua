@@ -75,9 +75,6 @@ return require("packer").startup(function(use)
 	-- LSPkind
 	use("onsails/lspkind.nvim")
 
-	-- Gruvbox
-	use("ellisonleao/gruvbox.nvim")
-
 	use({
 		"ray-x/lsp_signature.nvim",
 	})
@@ -87,5 +84,5 @@ return require("packer").startup(function(use)
 
 	use("HiPhish/rainbow-delimiters.nvim")
 
-  use { "catppuccin/nvim", as = "catppuccin" }
+	use({ "catppuccin/nvim", as = "catppuccin" })
 end)
