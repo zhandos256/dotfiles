@@ -1,15 +1,16 @@
 #!/bin/bash
 
-git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
-sudo rm -rf $HOME/.config/nvim
-sudo rm -rf $HOME/.tmux.conf
+mkdir -p $HOME/.config/nvim $HOME/.config/skhd
 
-sudo mkdir -p $HOME/.config/nvim
-
-sudo cp -R ./nvim $HOME/.config/
-sudo cp ./.tmux.conf $HOME/
-sudo cp ./.vimrc $HOME/
+cp -R ./nvim $HOME/.config/
+cp ./.tmux.conf $HOME/
+cp ./.vimrc $HOME/
+cp ./.vimrc $HOME/
+cp ./.zshrc $HOME/
+cp ./.aliases.zsh $HOME/
+cp ./skhdrc $HOME/.config/skhd/
 
 echo Done
