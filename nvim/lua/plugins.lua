@@ -84,5 +84,5 @@ return require("packer").startup(function(use)
 
 	use("HiPhish/rainbow-delimiters.nvim")
 
-	use({ "catppuccin/nvim", as = "catppuccin" })
+	use("ellisonleao/gruvbox.nvim")
 end)
