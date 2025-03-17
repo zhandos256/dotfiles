@@ -1,4 +1,4 @@
--- Optional, you don't have to run setup.
+ -- Optional, you don't have to run setup.
 require("transparent").setup({
   -- table: default groups
   groups = {
@@ -16,3 +16,5 @@ require("transparent").setup({
   -- Also the user event "TransparentClear" will be triggered
   on_clear = function() end,
 })
+
+vim.cmd[[TransparentEnable]]

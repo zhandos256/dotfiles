@@ -137,3 +137,6 @@ require("lspconfig")["ts_ls"].setup({
 require("lspconfig")["eslint"].setup({
 	capabilities = capabilities,
 })
+require("lspconfig")["volar"].setup({
+	capabilities = capabilities,
+})

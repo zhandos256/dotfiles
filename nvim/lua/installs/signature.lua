@@ -32,9 +32,9 @@ cfg = {
 	-- hint_prefix = "🐼 ", -- Panda for parameter, NOTE: for the terminal not support emoji, might crash
 	-- or, provide a table with 3 icons
 	hint_prefix = {
-	    above = "↙ ",  -- when the hint is on the line above the current line
-	    current = "← ",  -- when the hint is on the same line
-	    below = "↖ "  -- when the hint is on the line below the current line
+		above = "↙ ", -- when the hint is on the line above the current line
+		current = "← ", -- when the hint is on the same line
+		below = "↖ ", -- when the hint is on the line below the current line
 	},
 	hint_scheme = "String",
 	hint_inline = function()
