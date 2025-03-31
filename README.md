@@ -1,10 +1,41 @@
-### Этот репозиторий содержит мои конфигурационные файлы (dotfiles) для настройки различных инструментов.
+# Dotfiles
 
-- skhdrc – Конфигурация для skhd.
-- .zshrc и .aliases.zsh – Основной конфигурационный файл Zsh и набор алиасов.
-- nvim/ – Конфигурация для Neovim.
-- .tmux.conf – Настройки для tmux.
-- .vimrc – Конфигурация для Vim.
-- catpuccin-mocha.itermcolors – цветовая схема для iTerm2.
-- iterm-OBSprofile.json – профиль настроек для iTerm2.
+My personal dotfiles for development.
 
+## Content
+
+- `.zshrc` - zsh config
+- `.aliases.zsh` - aliases for zsh
+- `.tmux.conf` - tmux settings for minimalistic status-bar
+- `.vimrc` - base config for vi/vim
+- `nvim/` - nvim config
+- `skhdrc` - hotkeys for skhd
+
+## Install
+
+1. Clone repo
+
+```bash
+git clone https://github.com/yourusername/dotfiles.git ~/.dotfiles
+```
+
+2. Run script of install:
+
+```bash
+cd ~/.dotfiles
+./install.sh
+```
+
+## Features
+
+- Minimalistic status-bar for Tmux
+- navigation between windows (C-h, C-l)
+- Aliases for working
+
+## Requirements
+
+- iTerm2
+- Zsh
+- Tmux
+- Neovim
+- skhd
