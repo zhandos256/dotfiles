@@ -1,43 +1,48 @@
-set encoding=utf-8
-set t_Co=256
-set background=dark
-set scrolloff=5
-set number
-set ci
-set ai
-set cin
-set ignorecase
-set showmatch
-set hlsearch
-set incsearch
-set lz
-set mouse=a
-set smarttab
-set smartindent
-set autoindent
-set expandtab
-set nobackup
-set nowrap
-set noswapfile
-set smartcase
-set clipboard=unnamedplus
-set clipboard=unnamed
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set nocompatible
-set belloff=all
+" Основные настройки кодировки и отображения
+set encoding=utf-8          " Установка кодировки UTF-8
+set t_Co=256               " Включение поддержки 256 цветов
+set background=dark        " Темная тема
+set scrolloff=5            " Показывать 5 строк до и после курсора при прокрутке
+set number                 " Показывать номера строк
+set ci                     " Включение отступов при вставке
+set ai                     " Автоматические отступы
+set cin                    " Включение отступов в стиле C
+set ignorecase             " Игнорировать регистр при поиске
+set showmatch              " Показывать парные скобки
+set hlsearch               " Подсвечивать результаты поиска
+set incsearch              " Инкрементальный поиск
+set lz                     " Ленивая перерисовка экрана
+set mouse=a                " Включение поддержки мыши во всех режимах
+set smarttab               " Умные табуляции
+set smartindent           " Умные отступы
+set autoindent            " Автоматические отступы
+set expandtab             " Замена табуляции пробелами
+set nobackup              " Не создавать резервные файлы
+set nowrap                " Не переносить длинные строки
+set noswapfile            " Не создавать swap-файлы
+set smartcase             " Умный поиск с учетом регистра
+set clipboard=unnamedplus " Использовать системный буфер обмена
+set clipboard=unnamed     " Использовать системный буфер обмена (для совместимости)
+set tabstop=2             " Размер табуляции в 2 пробела
+set shiftwidth=2          " Размер отступа в 2 пробела
+set softtabstop=2         " Размер мягкой табуляции в 2 пробела
+set nocompatible          " Отключение режима совместимости с Vi
+set belloff=all           " Отключение звукового сигнала
 
-syntax on
-colorscheme default
-filetype plugin indent on
-autocmd FileType * set formatoptions-=r
+" Включение подсветки синтаксиса и цветовой схемы
+syntax on                  " Включение подсветки синтаксиса
+colorscheme default       " Использование стандартной цветовой схемы
+filetype plugin indent on " Включение плагинов и отступов в зависимости от типа файла
 
-inoremap jk <Esc>
-nnoremap Y <S-v>:%y+<CR>
-nnoremap ; :
-nnoremap <Space> :noh<CR>
-nnoremap <C-k> :tabnext<CR>
-nnoremap <C-j> :tabprevious<CR>
-nnoremap <Space>n :tabnew 
-nnoremap <S-k> i<CR><ESC>
+" Автоматические команды
+autocmd FileType * set formatoptions-=r  " Отключение автоматического добавления комментариев при новой строке
+
+" Пользовательские маппинги клавиш
+inoremap jk <Esc>         " Выход из режима вставки по комбинации jk
+nnoremap Y <S-v>:%y+<CR>  " Копирование всей строки в буфер обмена
+nnoremap ; :              " Использование ; вместо : для команд
+nnoremap <Space> :noh<CR> " Очистка подсветки поиска по пробелу
+nnoremap <C-k> :tabnext<CR>      " Переход к следующей вкладке по Ctrl+k
+nnoremap <C-j> :tabprevious<CR>  " Переход к предыдущей вкладке по Ctrl+j
+nnoremap <Space>n :tabnew        " Создание новой вкладки по Space+n
+nnoremap <S-k> i<CR><ESC>        " Вставка новой строки по Shift+k
