@@ -8,7 +8,8 @@ echo "Repository: dotfiles"
 echo "Purpose: Configuration management"
 
 # Co-Authors
-# Co-Authored-By: zhandos256 <zhandos256@gmail.com>
+# Co-Authored-By: zhandos256 <r.zhandos256@gmail.com>
 # Co-Authored-By: kuanbekaitaliev <kuanbekaitaliev@yandex.kz>
 
 echo $?
+
