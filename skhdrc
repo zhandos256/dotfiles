@@ -1,10 +1,7 @@
 alt - f: open -a Finder
-alt - i: open -a "/Applications/iTerm.app"
-shift + alt - i: open -a terminal
 alt - t: open -a "/Applications/Telegram.app"
 alt - o: open -a "/Applications/OBS.app"
 alt - s: open -a "/Applications/Safari.app"
-alt - d: open -a "/Applications/Docker.app"
 alt - m: open -a "/Applications/Min.app"
 alt - k: open -a "/Applications/KeePassXC.app"
 
@@ -12,3 +9,6 @@ alt - k: open -a "/Applications/KeePassXC.app"
 alt - 1: open -a "/Applications/Visual Studio Code.app"
 alt - 2: open -a "/Applications/PyCharm CE.app"
 alt - 3: open -a "/Applications/Cursor.app"
+alt - d: open -a "/Applications/Docker.app"
+alt - i: open -a "/Applications/iTerm.app"
+shift + alt - i: open -a terminal
