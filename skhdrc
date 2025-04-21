@@ -12,4 +12,3 @@ alt - 3: open -a "/Applications/Cursor.app"
 alt - d: open -a "/Applications/Docker.app"
 alt - i: open -a "/Applications/iTerm.app"
 shift + alt - i: open -a terminal
-shift + alt - s: open settings
