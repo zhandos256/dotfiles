@@ -2,7 +2,6 @@ alias cls="clear"
 alias o="open "
 alias quit="exit"
 alias c="pbcopy"
-# alias cat="bat --theme="gruvbox-dark""
 alias hh="tldr"
 
 # python
@@ -24,7 +23,7 @@ alias ta="tmux attach -t"
 alias tls="tmux ls"
 
 # VIM
-alias vim="nvim"
+alias v="nvim"
 alias vconf="vim ~/.config/nvim/"
 
 # GIT
