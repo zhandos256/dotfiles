@@ -24,7 +24,7 @@ alias tls="tmux ls"
 
 # VIM
 alias v="nvim"
-alias vconf="vim ~/.config/nvim/"
+alias vconf="nvim ~/.config/nvim/"
 
 # GIT
 alias gw="git switch"
