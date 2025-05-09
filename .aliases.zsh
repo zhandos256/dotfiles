@@ -11,7 +11,7 @@ alias venv="/usr/bin/python3 -m venv .env && source ./.env/bin/activate && pip i
 alias python3="/usr/bin/python3"
 
 # zsh
-alias zconf="vim ~/.zshrc"
+alias zconf="nvim ~/.zshrc"
 alias zupd="source ~/.zshrc"
 
 # TMUX
