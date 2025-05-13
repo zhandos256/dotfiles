@@ -1,4 +1,3 @@
-" Основные настройки кодировки и отображения
 set encoding=utf-8          " Установка кодировки UTF-8
 set t_Co=256               " Включение поддержки 256 цветов
 set background=dark        " Темная тема
@@ -45,4 +44,4 @@ nnoremap <Space> :noh<CR> " Очистка подсветки поиска по 
 nnoremap <C-k> :tabnext<CR>      " Переход к следующей вкладке по Ctrl+k
 nnoremap <C-j> :tabprevious<CR>  " Переход к предыдущей вкладке по Ctrl+j
 nnoremap <Space>n :tabnew        " Создание новой вкладки по Space+n
-nnoremap <S-k> i<CR><ESC>        " Вставка новой строки по Shift+k
+nnoremap <S-k> i<CR><ESC>
