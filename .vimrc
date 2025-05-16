@@ -43,5 +43,5 @@ nnoremap ; :              " Использование ; вместо : для �
 nnoremap <Space> :noh<CR> " Очистка подсветки поиска по пробелу
 nnoremap <C-k> :tabnext<CR>      " Переход к следующей вкладке по Ctrl+k
 nnoremap <C-j> :tabprevious<CR>  " Переход к предыдущей вкладке по Ctrl+j
-nnoremap <Space>n :tabnew        " Создание новой вкладки по Space+n
+nnoremap <Space>n :tabnew
 nnoremap <S-k> i<CR><ESC>
