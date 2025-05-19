@@ -41,7 +41,7 @@ inoremap jk <Esc>         " Выход из режима вставки по к�
 nnoremap Y <S-v>:%y+<CR>  " Копирование всей строки в буфер обмена
 nnoremap ; :              " Использование ; вместо : для команд
 nnoremap <Space> :noh<CR> " Очистка подсветки поиска по пробелу
-nnoremap <C-k> :tabnext<CR>      " Переход к следующей вкладке по Ctrl+k
+nnoremap <C-k> :tabnext<CR>
 nnoremap <C-j> :tabprevious<CR>
 nnoremap <Space>n :tabnew
 nnoremap <S-k> i<CR><ESC>
