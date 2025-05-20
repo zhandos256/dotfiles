@@ -40,7 +40,7 @@ autocmd FileType * set formatoptions-=r  " Отключение автомати
 inoremap jk <Esc>         " Выход из режима вставки по комбинации jk
 nnoremap Y <S-v>:%y+<CR>  " Копирование всей строки в буфер обмена
 nnoremap ; :              " Использование ; вместо : для команд
-nnoremap <Space> :noh<CR> " Очистка подсветки поиска по пробелу
+nnoremap <Space> :noh<CR>
 nnoremap <C-k> :tabnext<CR>
 nnoremap <C-j> :tabprevious<CR>
 nnoremap <Space>n :tabnew
