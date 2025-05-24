@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -d ./.env/bin ]; then
-    source ./.env/bin/activate
-elif [ -d ../.env/bin ]; then
-    source ../.env/bin/activate
+if [ -d ./.venv/bin ]; then
+    source ./.venv/bin/activate
+elif [ -d ../.venv/bin ]; then
+    source ../.venv/bin/activate
 else
-    echo "ENV not found!"
+    echo "VENV not found!"
 fi
