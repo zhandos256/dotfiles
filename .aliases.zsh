@@ -9,10 +9,15 @@ alias ac="source ~/files/activate_env.sh"
 alias ca="deactivate"
 alias venv="/usr/bin/python3 -m venv .venv && source ./.venv/bin/activate && pip install -U pip"
 alias python3="/usr/bin/python3"
+alias reqs="pip freeze > requirements.txt"
+
+# vi
+alias vconf="vi $HOME/.vimrc"
 
 # zsh
-alias zconf="vim ~/.zshrc"
+alias zconf="vi ~/.zshrc"
 alias zupd="source ~/.zshrc"
+alias aliass="vi $ZSH/.aliases.zsh"
 
 # TMUX
 alias tt="tmux"
@@ -26,3 +31,6 @@ alias tls="tmux ls"
 alias gw="git switch"
 alias gb="git branch"
 alias gs="git status"
+
+# Docker
+alias dup="docker up"
