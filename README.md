@@ -19,10 +19,11 @@ My personal dotfiles for development.
 git clone https://github.com/yourusername/dotfiles.git ~/.dotfiles
 ```
 
-2. Run script of install:
+2. Chmod +x and run script:
 
 ```bash
 cd ~/.dotfiles
+chmod +x run.sh
 ./install.sh
 ```
 
