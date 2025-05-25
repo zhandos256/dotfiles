@@ -77,7 +77,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-source $ZSH/.zsh_aliases.sh
+source $HOME/.aliases.zsh
 
 # User configuration
 
