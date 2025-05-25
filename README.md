@@ -5,21 +5,22 @@ My personal dotfiles for development.
 ## Content
 
 - `.zshrc` - zsh config
-- `.aliases.zsh` - aliases for zsh
-- `.tmux.conf` - tmux settings for minimalistic status-bar
-- `.vimrc` - base config for vi/vim
+- `.aliases.zsh` - aliases
+- `.tmux.conf` - tmux config
+- `.vimrc` - vi/vim config
 - `nvim/` - nvim config
-- `skhdrc` - hotkeys for skhd
+- `skhdrc` - skhd config
+- `karabiner` - karabiner config
 
 ## Install
 
 1. Clone repo
 
 ```bash
-git clone https://github.com/yourusername/dotfiles.git ~/.dotfiles
+git clone https://github.com/zhandos256/dotfiles.git
 ```
 
-2. Chmod +x and run script:
+2. Chmod and run script:
 
 ```bash
 cd ~/.dotfiles
@@ -27,15 +28,8 @@ chmod +x run.sh
 ./install.sh
 ```
 
-## Features
-
-- Minimalistic status-bar for Tmux
-- navigation between windows (C-h, C-l)
-- Aliases for working
-
 ## Requirements
 
-- iTerm2
 - Zsh
 - Tmux
 - Neovim
